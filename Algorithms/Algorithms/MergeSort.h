@@ -1,8 +1,12 @@
 #pragma once
-class MergeSort
-{
-public:
-	void Sort(int*, int, int, int);
-	void Merge_Sort(int*, int , int = 0);
-};
+#include "Sorting.h"
+	template <class T> class MergeSort : public Sorting<T>
+	{
+	public:
+		void Sort(T*, int);
+		void Sort(T*, int, int, int);
+		void Merge_Sort(T*, int, int = 0);
+		int RealComplexity(int n);
+		std::string Complexity();
+	};
 

@@ -14,34 +14,81 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="File di origine\Sorting">
-      <UniqueIdentifier>{b8e6048b-b4b2-4283-8097-8eb2d25f6633}</UniqueIdentifier>
+      <UniqueIdentifier>{c7b7d8c1-4eed-43b3-8d69-fbc9d09493b5}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
     </Filter>
-    <Filter Include="File di origine\DivideEtImpera">
-      <UniqueIdentifier>{025d2e13-7929-412c-91e7-18931a3848f6}</UniqueIdentifier>
+    <Filter Include="File di intestazione\Sorting">
+      <UniqueIdentifier>{1277e707-6429-409c-b672-c2d3e47b1057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Sorting\Linear">
+      <UniqueIdentifier>{bc696993-fd5c-49dc-bd71-909974a14d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\Sorting\Linear">
+      <UniqueIdentifier>{383d5d59-e7f9-4236-927c-464dc910a569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Other">
+      <UniqueIdentifier>{b22a523c-836a-4375-b26e-f1070f300b5e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Utils.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
     <ClCompile Include="Algorithms.cpp">
       <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapSort.cpp">
+      <Filter>File di origine\Sorting</Filter>
     </ClCompile>
     <ClCompile Include="InsertionSort.cpp">
       <Filter>File di origine\Sorting</Filter>
     </ClCompile>
     <ClCompile Include="MergeSort.cpp">
-      <Filter>File di origine\DivideEtImpera</Filter>
+      <Filter>File di origine\Sorting</Filter>
     </ClCompile>
-    <ClCompile Include="Utils.cpp">
-      <Filter>File di origine</Filter>
+    <ClCompile Include="CountingSort.cpp">
+      <Filter>File di origine\Sorting\Linear</Filter>
+    </ClCompile>
+    <ClCompile Include="RadixSort.cpp">
+      <Filter>File di origine\Sorting\Linear</Filter>
+    </ClCompile>
+    <ClCompile Include="BucketSort.cpp">
+      <Filter>File di origine\Sorting\Linear</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort.cpp">
+      <Filter>File di origine\Sorting</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MergeSort.h">
+    <ClInclude Include="Utils.h">
       <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapSort.h">
+      <Filter>File di intestazione\Sorting</Filter>
     </ClInclude>
     <ClInclude Include="InsertionSort.h">
+      <Filter>File di intestazione\Sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSort.h">
+      <Filter>File di intestazione\Sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
+      <Filter>File di intestazione\Sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="CountingSort.h">
+      <Filter>File di intestazione\Sorting\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="RadixSort.h">
+      <Filter>File di intestazione\Sorting\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="BucketSort.h">
+      <Filter>File di intestazione\Sorting\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
-    <ClInclude Include="Utils.h">
+    <ClInclude Include="Sorting.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
   </ItemGroup>
